@@ -1,1 +1,13 @@
-<p>ordenar works!</p>
+<div class="text-layout">
+    <h1>Pipes Personalizados</h1>
+    <p>
+        Pipes creados por {{ 'nosotros' | mayusculas:enMayuscula}}
+    </p>
+
+    <button pButton
+            label="Toggle Mayusculas"
+            class="p-button-outlined p-button-danger" 
+            (click)="cambiar()">
+        
+    </button>
+</div>
